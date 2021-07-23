@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "868273486367",
+    "project_id": "database-tic-toe",
+    "storage_bucket": "database-tic-toe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868273486367:android:246a670eb902e39b86f32a",
+        "android_client_info": {
+          "package_name": "com.example.databasetictoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868273486367-mef2l9f605llqblppbvf6va2bl4otvrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZABDmGoU2K2BNEEikYVl5H7q2trVmo9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868273486367-mef2l9f605llqblppbvf6va2bl4otvrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

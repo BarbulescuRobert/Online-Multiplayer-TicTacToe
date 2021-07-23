@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:maxWidth="300dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp">
+    <TextView
+        android:id="@+id/showMessage"
+        android:padding="8sp"
+        android:layout_width="wrap_content"
+        android:maxWidth="300dp"
+        android:layout_height="wrap_content"
+        android:text="Ionel are multa mancare dar nu si pentru mine"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:background="@drawable/msg_get_shape"
+        />
+
+</RelativeLayout>

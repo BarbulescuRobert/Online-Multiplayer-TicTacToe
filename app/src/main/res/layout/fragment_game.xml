@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/layer1"
+        android:layout_below="@+id/toolbarr"
+        android:layout_above="@id/layer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            android:textSize="64sp"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            android:textSize="64sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="64sp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layer2"
+        android:layout_below="@+id/toolbarr"
+        android:layout_above="@id/layer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            android:textSize="64sp"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            android:textSize="64sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="64sp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layer3"
+        android:layout_below="@+id/toolbarr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            android:textSize="64sp"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            android:textSize="64sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="64sp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FF0000"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/opp_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/layer3"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/my_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:layout_below="@id/layer3"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/text_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/layer3"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/restart_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:visibility="invisible"
+        android:enabled="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_turn"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/back_lobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to lobby"
+        android:visibility="invisible"
+        android:enabled="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/restart_game"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>

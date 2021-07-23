@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile"
+            android:id="@+id/profile"
+            />
+        <item
+            android:id="@+id/addfriends"
+            android:title="Friends"
+            />
+
+    </group>
+    <item android:title="Marketplace">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/market"
+                    android:title="Market" />
+
+                <item
+                    android:id="@+id/buy_coins"
+                    android:title="Buy coins" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Games">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/tictactoe"
+                    android:title="Tic Tac Toe" />
+
+                <item
+                    android:id="@+id/snake"
+                    android:title="Snake" />
+
+                <item
+                    android:id="@+id/chess"
+                    android:title="Chess" />
+            </group>
+        </menu>
+    </item>
+</menu>
